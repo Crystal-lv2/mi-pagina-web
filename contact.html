@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Contacto — PROMEXFRUT</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <!-- Favicons: usar el mismo logo que el index -->
+    <link rel="icon" type="image/jpeg" href="img/logo.jpeg">
+    <link rel="shortcut icon" href="img/logo.jpeg">
+    <link rel="icon" type="image/jpeg" sizes="32x32" href="img/logo.jpeg">
+    <link rel="icon" type="image/jpeg" sizes="16x16" href="img/logo.jpeg">
+    <link rel="apple-touch-icon" href="img/logo.jpeg">
+  </head>
+  <body>
+
+    <!-- Página de contacto: diseño independiente (sin nav del inicio) -->
+    <main class="page-wrap">
+      <section id="contacto" class="contact-section contact-standalone">
+      <div class="contact-hero">
+        <div class="contact-hero-inner">
+          <h1>Contáctanos</h1>
+          <p class="lead">¿Tienes dudas o quieres una cotización? Escríbenos y te atenderemos a la brevedad.</p>
+        </div>
+      </div>
+
+      <div class="contact-container">
+        <div class="contact-form-wrap">
+          <p class="trust-message">Estamos aquí para ayudarte. Escríbenos y te responderemos lo antes posible.</p>
+          <form id="contact-form" class="contact-form" action="https://formsubmit.co/ventasprimech2025@gmail.com" method="POST" target="_blank">
+            <input type="hidden" name="_subject" value="Nuevo mensaje desde sitio PROMEXFRUT">
+            <input type="hidden" name="_captcha" value="false">
+
+            <label for="name">Nombre</label>
+            <input type="text" id="name" name="name" required placeholder="Tu nombre">
+
+            <label for="email">Correo electrónico</label>
+            <input type="email" id="email" name="email" required placeholder="tu@correo.com">
+
+            <label for="message">Mensaje</label>
+            <textarea id="message" name="message" rows="6" required placeholder="Escribe tu mensaje..."></textarea>
+
+            <div style="display:flex;gap:12px;align-items:center;margin-top:12px">
+              <button type="submit" class="contact-submit">Enviar mensaje</button>
+              <button type="button" id="copy-email-btn" class="copy-btn">Copiar correo</button>
+            </div>
+          </form>
+
+          <p class="hours"><strong>Horario de atención:</strong> Lunes a Viernes 8:00 – 17:00</p>
+        </div>
+
+        <aside class="contact-info" aria-label="Información de contacto">
+          <div class="contact-card">
+            <h3>Contacto rápido</h3>
+            <p>Correo: <a id="direct-email-link" href="mailto:ventasprimech2025@gmail.com">ventasprimech2025@gmail.com</a></p>
+            <p>Atención: L-V 8:00 – 17:00</p>
+
+            <div class="social-icons">
+              <a class="social-link" href="https://www.tiktok.com/@promexfrutdeshidratados?_r=1&_t=ZS-91akNza7FRP" target="_blank" rel="noopener noreferrer" aria-label="TikTok">
+                <img src="img/tiktok.png" alt="TikTok" class="social-icon" width="32" height="32">
+              </a>
+              <a class="social-link" href="https://www.instagram.com/promexfrut.deshidratados?igsh=MWd2ZjdhZDhmdXhndg==" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+                <img src="img/instagram.png" alt="Instagram" class="social-icon" width="32" height="32">
+              </a>
+              <a class="social-link" href="https://www.facebook.com/share/17YLxUDCEm/" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+                <img src="img/facebook.png" alt="Facebook" class="social-icon" width="32" height="32">
+              </a>
+            </div>
+          </div>
+        </aside>
+      </div>
+
+      <div id="contact-toast" class="contact-toast sr-only" role="status" aria-live="polite"></div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="footer-inner">
+        <a href="privacy.html" class="footer-link">Aviso de Privacidad</a>
+        <p class="footer-text">© 2025 PROMEXFRUT. Todos los derechos reservados.</p>
+        <p class="footer-text">Desarrollado por:</p>
+                    <a href="https://www.linkedin.com/in/crystal-lizárraga-vega-035782392" class="footer-link" target="_blank" rel="noopener noreferrer">Crystal Lizárraga Vega</a>
+                    <a href="https://www.linkedin.com/in/daniela-yamileth-dominguez-ruelas-185494258/" class="footer-link" target="_blank" rel="noopener noreferrer">Daniela Yamileth Domínguez Ruelas</a>
+        </main>
+    </footer>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
+
+ 
